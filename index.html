@@ -1,44 +1,534 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Luwie Salgado | Web Developer Portfolio</title>
+<html lang="en">
+<head>
 
-		<!-- Bootstrap CSS link  | https://getbootstrap.com/ -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a sample website for Tattoo shop">
+    <meta name="keywords" content="HTML, CSS, JavaScript, how to build a website, needed websites for business, web developer in Batangas Philippines, local web developer">
+    <meta name="author" content="Luwie Salgado at redvantagepoint.com">
 
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<!-- Google Fonts | Montserrat and Roboto  -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/style.css">
 
-			<!-- external CSS -->
-	</head>
+    <title>MyTattooShop | Home Page - Portfolio website</title>
+hero__img
+</head>
+<body>
 
-	<body>
-		<!--div creates a wrapper/comtainer for our layout  -->
-		<!-- class is an attribute to name our div or to group tags -->
-		<div class="container-fluid">
-			<!-- id is an attribute to name a tag uniquely -->
-			<section id="landing" class="text-center mt-5">
-				<h1> Full Stack Web Developer</h1>
+<!---Codes by Luwie Salgado  support@redvantagepoint.com --->
+    <header>
 
-				<p> Hi! My name is Luwie and I love building things from scratch.</p>
+        <div class="header__container">
 
-				<img src="images/my_picture_nobg.png" id="profile" class="img-fluid">
+            <img src="assets/images/mytat.png" alt="this is the logo of the Tattoo shop">
 
-				<a href="mailto:luwiesalgado@gmail.com" class="btn btn-success btn-lg mt-3">Lets's work together</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#awards">AWARDS</a></li>
+                    <li><a href="#contact">CONTRACT</a></li>
+
+                </ul>
+            </nav>
+
+            <span class="appointment"><a href="#contact-form">Book an Appointment</a></span>
+        
+        </div>
+        
+    </header>
+
+    <section class="hero">
+        <div class="hero__container-80 | even_column">
+            <div class="hero__text">
+                
+                <span class="pre_kit"> Quality And Clean Tattoo</span>
+                
+                <img class="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+                
+                <h2>Walk With Confidence</h2>
+                
+                <p>Live your life the way you wanted to. Carry your self with confidence. Decide what matters to you.</p>
+                
+                <button class="button__primary"> Learn More </button>
+            
+            </div>
+
+            <div class="hero__img">
+
+                <img id="hero_image" src="assets/images/neck_tattoo.jpg" alt="main image showing tattoo on Neck">
+
+            </div>
 
 
-			</section>
-			
-		</div>
+        </div>
 
-		<!-- Bootstrap JS bundle -->
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-		</script>
+    </section>  <!--End of the header section-->
 
-	</body>
+
+    <section class="about | even_column" id="about">
+
+        <div class="about__first-col | section__container-3col">
+
+            <h2>  About us </h2>
+
+            <img id="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+            
+            <p>"Our passion for tattooing transcends boundaries, blending exquisite designs and impeccable technique. Step into our realm and let us craft your inked masterpiece with unparalleled creativity."</p>
+
+            <button class="button__primary"> Learn More</button>
+
+
+        </div>
+
+        <div class="about__middle-col | section__container-3col">
+
+            <img src="assets/images/ink.png" alt="">
+        
+        </div>
+
+
+        <div class="about__first-col section__container-3col | about__end-col">
+
+            <h2> History </h2>
+
+            <img id="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+
+            <p>"Our passion for tattooing transcends boundaries, blending exquisite designs and impeccable technique. Step into our realm and let us craft your inked masterpiece with unparalleled creativity."</p>
+
+            <button class="button__primary"> Learn More</button>
+
+        </div>
+
+        <img id="s" src="assets/images/S.png" alt="S_overlay">
+
+    </section>  <!--End of About section-->
+
+
+    <section class="previous_work ">
+
+        <div class="hero__container-80 even_column">
+
+            <div class="previouswork__container">
+                <span class="pre_kit"> Previous Job</span> <br>
+                <img class="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+                <h2>Our Masterpieces</h2>
+                <p>We are dedicated to provide you quality arts that you can treasure for the rest of your life..</p>
+                <button class="button__primary"> View More</button>
+            </div>
+
+
+            <div class="previouswork__container_gallery">
+                <img src="assets/images/ogallery04.jpg" alt="">
+                <img src="assets/images/ogallery01.jpg" alt="">
+                <img src="assets/images/ogallery02.jpg" alt="">
+                <img src="assets/images/ogallery03.jpg" alt="">
+                <img src="assets/images/ogallery04.jpg" alt="">
+                <img src="assets/images/ogallery01.jpg" alt="">
+            
+
+        </div>
+
+    </section>  <!--End of Previous work-->
+       
+
+    <section class="artist | hero__container-80 even_column">
+        <div class="artist_box">
+            <img id="artist_img" src="assets/images/artist.jpg" alt="main image showing tattoo on Neck">
+        </div>
+
+        <div class="artist_text">
+                <span class="pre_kit"> The Artist</span> <br>
+
+                <img class="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+
+                <h2>What we believe in</h2>
+
+                <div class="qoute_text">
+                    <img id="qoute" src="assets/images/quote.png" alt="">
+                    
+                    <p>Every tattoo carries profound meaning, as it becomes an indelible part of your identity. </p>
+                </div>
+
+                <p> Enduring the pain of the needle, it becomes a symbol of personal significance. Wear it proudly, embracing the pride that comes from expressing your true self. Let it be a constant reminder of your journey and the values you hold dear.</p>
+                            
+                <img src="assets/images/luissign.png" alt="artist signature">   
+
+                <p>Tattoo Artist </p>
+
+        </div>
+    </section>
+
+
+    <section class="video">
+
+        <video id="video" src="assets/images/tattoo_intro.webm"> </video>
+
+    </section>  <!--End of Video-->
+
+   <!--start of Award-->
+    <section class="awards">  
+
+    <div class="awards_main_container  even_column">  <!--this is the main container-->
+
+        <!-- div for left wrapper-->
+
+        <div class="left_wrapper">
+
+
+          <!-- div for title and reflection-->
+
+            <div class="awards_text">
+                <span class="pre_kit"> Our Accomplishment</span> 
+                    <img class="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+                    <br>
+                    <h2>The Reflections</h2>
+
+                    <br><br>
+
+            </div>
+
+
+             <!-- div for 2 column for the awards-->
+
+    <div class="awards_2col_details">
+
+                    <div class="awards__wrapper">
+                        <div class="awards__icon awards_div ">
+                                <img class="laurels" src="assets/images/award02.png" alt="image of a laurels">
+                        </div>
+
+                        <div class="award-text awards_div">
+                            <h2>Champion</h2> <br>
+                            <p>Rakatatz 2022, Hyper Realism</p>
+                        </div>
+                    </div>
+
+                    <div class="awards__wrapper">
+                        <div class="awards__icon awards_div">
+                                <img class="laurels" src="assets/images/award01.png" alt="image of a laurel">
+                        </div>
+
+                        <div class="award-text awards_div">
+                            <h2>1st Place</h2><br>
+                            <p>Dutdutan 2017, Best in Bio Mech</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="awards_2col_details">
+
+                <div class="awards__wrapper">
+                    <div class="awards__icon awards_div ">
+                            <img class="laurels" src="assets/images/award05.png" alt="image of a laurels">
+                    </div>
+
+                    <div class="award-text awards_div">
+                        <h2>2nd Place</h2> <br>
+                        <p>Dutdutan 2015, Best In Bio Mech.</p>
+                    </div>
+                </div>
+
+                <div class="awards__wrapper">
+                    <div class="awards__icon awards_div">
+            
+                        <img class="laurels" src="assets/images/award03.png" alt="image of a laurels">
+                       
+                    </div>
+
+                    <div class="award-text awards_div">
+                        <h2>1st Place</h2><br>
+                        <p>Clean Tattoo Studio  Project</p>
+                    </div>
+                </div>
+        </div>
+        </div> 
+      <!--end of left wrapper-->
+
+         <!-- div for right wrapper-->
+        </div>   
+        <div class="right_wrapper">
+            <img src="assets/images/lady.jpg" alt="IMage of a lady who has a beautiful tattoo" width="408px" >
+        </div>
+        </div>
+
+     </div>
+    <!--end of the main container -->
+        
+    </section>  <!--end of the awards section -->
+
+
+    <section class="menu">
+
+            <span class="pre_kit"> You're The Boss, Let Us Know What You Want!</span>
+
+            <img class="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+
+             <h2>Your Choices</h2>
+
+            <div class="menu_container even_column">
+
+                <div class="menu_special">
+                
+                    <h2> Specials </h2>
+                    
+                    <div class="menu_list">
+                        <span class="menu_details"> 
+                            <p>Biomech</p>
+                            <p>  PHP 500</p>
+                        </span>
+
+                        <hr>
+                        <p> M | Price starts from the price above</p>
+                    </div>
+
+                    <div class="menu_list">
+                        <span class="menu_details"> 
+                            <p>Biomech</p>
+                            <p>  PHP 500</p>
+                        </span>  
+                        
+                        <hr>
+                        <p> M | Price starts from the price above</p>
+                    </div>
+
+                    <div class="menu_list">
+                        <span class="menu_details"> 
+                            <p>Biomech</p>
+                            <p>  PHP 500</p>
+                        </span>   
+                        
+                        <hr>
+                        <p> M | Price starts from the price above</p>
+                    </div>
+
+                    <div class="menu_list">
+                        <span class="menu_details"> 
+                            <p>Biomech</p>
+                            <p>  PHP 500</p>
+                        </span>   
+                        
+                        <hr>
+                        <p> M | Price starts from the price above</p>
+                    </div>
+
+                    <div class="menu_list">
+                        <span class="menu_details"> 
+                            <p>Biomech</p>
+                            <p>  PHP 500</p>
+                        </span>  
+                        
+                        <hr>
+                        <p> M | Price starts from the price above</p>
+                    </div>
+
+                    
+            </div>
+                   
+                <!-- Middle column / ARM -->
+            <div class="arm" id="arm">
+            
+                    <img src="assets/images/arm.png" alt="">
+                    
+            </div>
+                
+                
+                <div class="menu_blackandgray">               
+                
+                      <h2> Black and Gray    </h2>
+    
+                      <div class="menu_list">
+                            <span class="menu_details"> 
+                                <p>Biomech</p>
+                                <p>  PHP 500</p>
+                            </span>   
+                            
+                            <hr>
+                            <p> M | Price starts from the price above</p>
+                      </div>
+
+                      <div class="menu_list">
+                            <span class="menu_details"> 
+                                <p>Biomech</p>
+                                <p>  PHP 500</p>
+                            </span>  
+                            
+                            <hr>
+                            <p> M | Price starts from the price above</p>
+                      </div>
+
+                      <div class="menu_list">
+                            <span class="menu_details"> 
+                                <p>Biomech</p>
+                                <p>  PHP 500</p>
+                            </span>  
+                            
+                            <hr>
+                            <p> M | Price starts from the price above</p>
+                      </div>
+
+                      <div class="menu_list">
+                            <span class="menu_details"> 
+                                <p>Biomech</p>
+                                <p>  PHP 500</p>
+                            </span> 
+                            
+                            <hr>
+                            <p> M | Price starts from the price above</p>
+                      </div>
+
+                        <div class="menu_list">
+                            <span class="menu_details"> 
+                                <p>Biomech</p>
+                                <p>  PHP 500</p>                                
+                            </span>
+
+                            <hr>
+                            <p> M | Price starts from the price above</p>
+                        </div>
+                    
+                </div>
+
+            </div>
+
+        <button class="button__primary"> View More</button>
+
+    </section>
+
+
+    <section class="contact | even_column">
+      
+        <div class="contact_text ">
+            <span class="pre_kit"> Contact</span> <br>
+
+            <img class="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+
+            <h2>Find Us</h2>
+            
+            <p>City Of Santo Tomas, Batangas . Philippines 4234 </p>
+
+            <span class="contact__hours" id="office_hour"> Opening Hour</span>
+
+            <span class="contact__hours">
+                <p>Mon - Fri: 10:00 Am - 02:00 Am <br> Sat - Sun: 10:00 Am - 03:00 Am</p>
+                
+            </span>
+            
+            <button class="button__primary"> Visit Us</button>
+        </div>
+
+        <div class="contact_img">
+            <img id="artist_img" src="assets/images/dark.jpg" alt="main image showing tattoo on Neck">
+        </div>
+
+    </section>
+
+   
+
+    <section class="contact-form" id="contact-form">
+    
+            <div class="contact__container">
+
+                <span class="pre_kit">Get a qoute</span>
+                <img class="kit_small" src="assets/images/kit.png" alt="tattoo_kit">
+                <h2>Send us a message</h2>
+
+                <form action="">
+                    <label for="Name">Name:</label>
+                    <input type="text" name="name" placeholder="Name:">
+                    <label for="Phone">Mobile Number:</label>
+                    <input type="text" name="phone" placeholder="Mobile Number:">
+                    <label for="Message">Message:</label>
+                    <textarea name="message" id="message" rows="2" cols="10"> </textarea>
+                    <button class="button__primary"> Send Message</button>
+                </form>
+
+            </div>
+
+
+    
+    </section>  <!--end of contact form-->
+     
+    <footer>
+
+        <div class="even_column">
+            <div class="even_col_3">
+
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>City Of Santo Tomas, Batangas .</li>
+                    <li>Philippines 4234</li>
+                    <li>+63 906 888 88 88</li>
+                    <li>+63 43 888 88 88</li>
+                </ul>
+            </div>
+
+
+            <div class="even_col_3md even_col_3">
+                
+                <img src="assets/images/mytat.png" alt="this is the logo of the Tattoo shop">
+
+                <img class="kit_small kit_footer" src="assets/images/kit.png" alt="tattoo_kit">
+
+                <p>"Carry your self with confidence. Decide what matters to you."</p>
+                
+
+            </div>
+
+            <div class="even_col_3">
+                <h3>Working Hours</h3>
+                <ul>
+                    <li> Monday-Friday:</li>
+                    <li>08:00 Am - 12:00 Am</li>
+                    <li>Saturday-Sunday:</li>
+                    <li>07:00 Am - 11:00 Pm</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/luwsalgado">
+                <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="35" 
+                height="35" 
+                viewBox="0 0 512 512">
+                
+                <path fill="#fff" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48c27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/>
+                
+                </svg> 
+            </a>
+
+            <a href="https://www.facebook.com/luwsalgado">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+                width="35" 
+                height="35" 
+                viewBox="0 0 512 512">
+                
+                <path fill="#fff" d="M256.55 8C116.52 8 8 110.34 8 248.57c0 72.3 29.71 134.78 78.07 177.94c8.35 7.51 6.63 11.86 8.05 58.23A19.92 19.92 0 0 0 122 502.31c52.91-23.3 53.59-25.14 62.56-22.7C337.85 521.8 504 423.7 504 248.57C504 110.34 396.59 8 256.55 8zm149.24 185.13l-73 115.57a37.37 37.37 0 0 1-53.91 9.93l-58.08-43.47a15 15 0 0 0-18 0l-78.37 59.44c-10.46 7.93-24.16-4.6-17.11-15.67l73-115.57a37.36 37.36 0 0 1 53.91-9.93l58.06 43.46a15 15 0 0 0 18 0l78.41-59.38c10.44-7.98 24.14 4.54 17.09 15.62z"/>
+                </svg> 
+            </a>
+        </div>
+        <div class="footer_end">
+
+            <p>2023 MyTattooShop. All Rights Reserved.</p>
+            <p id="footer_builtby">Codes by Luwie | <a href="https://www.redvantagepoint.com"><span style="color: red">Red</span>Vantagepoint.com</p></a>
+        </div>
+
+    </footer>
+
+
+    <script>
+        
+
+    </script>
+
+
+
+
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
 </html>
